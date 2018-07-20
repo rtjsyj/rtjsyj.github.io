@@ -1,0 +1,73 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="1.com" resolutions="1x" timestamp="1532100614063">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="3857906561" ref="index"/>
+    <file name="___-_____-2.css" crc="4250963384" ref="без-имени-2"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:tablet>index:index:без-имени-2"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:tablet>index:index:без-имени-2"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:tablet>index:index:без-имени-2"/>
+    <file name="museconfig.js" crc="462583865" ref="phone>index:tablet>index:index:без-имени-2"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:tablet>index:index:без-имени-2"/>
+    <file name="require.js" crc="7928878" ref="phone>index:tablet>index:index:без-имени-2"/>
+  </folder>
+  <folder name="images">
+    <file name="679c3acce35f36bec5360c44f805b4e4.png" crc="3879743918" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u94-4.png" crc="3943763158" ref="index"/>
+    <file name="280px-penrose_trianglesvg-crop-u165.png" crc="391370474" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="280px-penrose_trianglesvg-crop-u171.png" crc="391370474" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="280px-penrose_trianglesvg-crop-u192.png" crc="98223748" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="280px-penrose_trianglesvg-crop-u198.png" crc="98223748" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="280px-penrose_trianglesvg-crop-u168.png" crc="391370474" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u304-4.png" crc="4236261267" ref="index"/>
+    <file name="icon_phones.svg" crc="3961749941" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icon_phones_poster_.png" crc="408034356" ref="index"/>
+    <file name="icon_adaptive.svg" crc="3785693148" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icon_adaptive_poster_.png" crc="277635594" ref="index"/>
+    <file name="icon_domain.svg" crc="213901303" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icon_domain_poster_.png" crc="455236568" ref="index"/>
+    <file name="icon_gift.svg" crc="534608761" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icon_gift_poster_.png" crc="4160085724" ref="index"/>
+    <file name="icons8-дизайн-100.png" crc="3841300307" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons8-высокое-качество-100.png" crc="3806814491" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="4021538510" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="4121076409" seo="true" mt="1528287551102" redirect="false"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="4208278238" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="234159592" seo="true" mt="1531827001178" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="4023082616" seo="true" mt="1532100612539" redirect="true"/>
+  <file name="без-имени-2.html" crc="4141385005" seo="true" mt="1531825995023" redirect="true"/>
+</manifest>
