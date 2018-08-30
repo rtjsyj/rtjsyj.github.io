@@ -14,17 +14,57 @@ document.documentElement.className = document.documentElement.className.replace(
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
-  <link rel="canonical" href="http://1.com/index.html"/>
+  <link rel="canonical" href="http://qwer.io/index.html"/>
   <title>Домашняя</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4208278238" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4179989337" id="pagesheet"/>
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <a class="nonblock nontext Button rounded-corners clearfix colelem" id="buttonu1325" href="../index.html?devicelock=desktop#dom" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u1326-4"><!-- content --><p>Полная версия</p></div></a>
-   <div class="verticalspacer" data-offset-top="355" data-content-above-spacer="355" data-content-below-spacer="300" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  <div class="clearfix borderbox" id="page"><!-- group -->
+   <div class="browser_width grpelem" id="u380-bw">
+    <div class="clearfix" id="u380"><!-- group -->
+     <div class="clearfix grpelem" id="u404-4"><!-- content -->
+      <p>Сайты под ключ</p>
+     </div>
+    </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="285" data-content-above-spacer="285" data-content-below-spacer="516" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="clearfix grpelem" id="pu408"><!-- group -->
+    <div class="grpelem" id="u408"><!-- content -->
+     <div class="fluid_height_spacer"></div>
+    </div>
+    <div class="clearfix grpelem" id="u412-4"><!-- content -->
+     <p>Варианты сайтов</p>
+    </div>
+    <div class="clearfix grpelem" id="u416-20"><!-- content -->
+     <p id="u416-2">Сайт-визитка</p>
+     <p id="u416-3">&nbsp;</p>
+     <p id="u416-5">В разработку входит :</p>
+     <p id="u416-6">&nbsp;</p>
+     <p id="u416-8"><span id="u416-7">создание уникального дизайна</span></p>
+     <p id="u416-9">&nbsp;</p>
+     <p id="u416-11"><span id="u416-10">&nbsp;написание информационных текстов</span></p>
+     <p id="u416-12">&nbsp;</p>
+     <p id="u416-14">заполнение всех страниц сайта</p>
+     <p id="u416-15">&nbsp;</p>
+     <p id="u416-16">&nbsp;</p>
+     <p id="u416-18">Цена-500 руб</p>
+    </div>
+    <div class="grpelem" id="u419"><!-- custom html -->
+     <iframe src="https://money.yandex.ru/quickpay/button-widget?targets=%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0&default-sum=500&button-text=11&yamoney-payment-type=on&button-size=m&button-color=black&fio=on&phone=on&mail=on&successURL=&quickpay=small&account=410017070444990&" width="184" height="36" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+    </div>
+    <div class="grpelem" id="u424"><!-- custom html -->
+     <iframe src="https://money.yandex.ru/quickpay/button-widget?targets=%D0%A1%D0%B0%D0%B9%D1%82%20%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0&default-sum=500&button-text=11&any-card-payment-type=on&button-size=m&button-color=black&fio=on&phone=on&mail=on&successURL=&quickpay=small&account=410017070444990&" width="184" height="36" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+    </div>
+    <div class="grpelem" id="u429"><!-- content -->
+     <div class="fluid_height_spacer"></div>
+    </div>
+    <div class="clearfix grpelem" id="u432-4"><!-- content -->
+     <p>Больше информации в версии для компьютора</p>
+    </div>
+   </div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -41,6 +81,8 @@ var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","muse
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
